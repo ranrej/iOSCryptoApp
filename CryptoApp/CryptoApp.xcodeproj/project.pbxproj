@@ -15,6 +15,7 @@
 		653FA0ED2B3B55E500EEF881 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 653FA0EC2B3B55E500EEF881 /* Assets.xcassets */; };
 		653FA0F02B3B578B00EEF881 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653FA0EF2B3B578B00EEF881 /* Color.swift */; };
 		653FA0F82B3B8EC100EEF881 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653FA0F72B3B8EC100EEF881 /* HomeView.swift */; };
+		65AAD1D92B3CC6B300723395 /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AAD1D82B3CC6B300723395 /* CoinModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		653FA0EC2B3B55E500EEF881 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../../../Downloads/Resources/Assets.xcassets; sourceTree = "<group>"; };
 		653FA0EF2B3B578B00EEF881 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		653FA0F72B3B8EC100EEF881 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		65AAD1D82B3CC6B300723395 /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +79,9 @@
 			isa = PBXGroup;
 			children = (
 				653FA0DE2B3B4AAD00EEF881 /* CryptoAppApp.swift */,
-				653FA0F12B3B8E1300EEF881 /* Core */,
 				653FA0EE2B3B575D00EEF881 /* Extensions */,
+				65AAD1D72B3CB3B100723395 /* Models */,
+				653FA0F12B3B8E1300EEF881 /* Core */,
 				653FA0E02B3B4AAD00EEF881 /* ContentView.swift */,
 				653FA0EC2B3B55E500EEF881 /* Assets.xcassets */,
 				653FA0E42B3B4AB300EEF881 /* Preview Content */,
@@ -133,6 +136,14 @@
 			children = (
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		65AAD1D72B3CB3B100723395 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				65AAD1D82B3CC6B300723395 /* CoinModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,6 +222,7 @@
 				653C2D4C2B3B9AC200278A0B /* CircleButtonView.swift in Sources */,
 				653FA0F02B3B578B00EEF881 /* Color.swift in Sources */,
 				653C2D4E2B3BA04F00278A0B /* CircleButtonAnimationView.swift in Sources */,
+				65AAD1D92B3CC6B300723395 /* CoinModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
