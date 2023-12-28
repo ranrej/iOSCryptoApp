@@ -19,6 +19,7 @@
 		65AAD1DD2B3CD12900723395 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AAD1DC2B3CD12900723395 /* CoinRowView.swift */; };
 		65AAD1DF2B3CD17B00723395 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AAD1DE2B3CD17B00723395 /* PreviewProvider.swift */; };
 		65AAD1E12B3CD76B00723395 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AAD1E02B3CD76B00723395 /* Double.swift */; };
+		65F9F23D2B3D405D00B67A5C /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F9F23C2B3D405D00B67A5C /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		65AAD1DC2B3CD12900723395 /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
 		65AAD1DE2B3CD17B00723395 /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
 		65AAD1E02B3CD76B00723395 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		65F9F23C2B3D405D00B67A5C /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 		653FA0F52B3B8E8300EEF881 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				65F9F23C2B3D405D00B67A5C /* HomeViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65AAD1DD2B3CD12900723395 /* CoinRowView.swift in Sources */,
+				65F9F23D2B3D405D00B67A5C /* HomeViewModel.swift in Sources */,
 				653FA0E12B3B4AAD00EEF881 /* ContentView.swift in Sources */,
 				653FA0F82B3B8EC100EEF881 /* HomeView.swift in Sources */,
 				653FA0DF2B3B4AAD00EEF881 /* CryptoAppApp.swift in Sources */,
